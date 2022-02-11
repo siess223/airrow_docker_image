@@ -1,3 +1,4 @@
+FROM ubuntu:20.04
 FROM apache/airflow:2.0.0
 
 
