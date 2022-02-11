@@ -1,7 +1,7 @@
 FROM apache/airflow:2.1.0
 
 # RUN pip install pyodbc
-RUN apt install python3-pyodbc
+RUN sudo apt install python3-pyodbc
 
 # RUN apt-get update \
 #   && apt-get install -y python3-pip python3-dev \
