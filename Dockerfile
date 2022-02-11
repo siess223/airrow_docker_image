@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
-FROM apache/airflow:2.0.0
+
 
 
 RUN pip install --upgrade pip
@@ -42,5 +42,5 @@ Setup = /usr/lib/x86_64-linux-gnu/odbc/libtdsS.so" >> /etc/odbcinst.ini
 RUN pip install pymongo
 RUN pip install pyodbc
 
-
+FROM apache/airflow:2.0.0
 
