@@ -2,6 +2,7 @@ FROM apache/airflow:2.0.0
 
 RUN pip install pymongo
 
+RUN pip install pyodbc == 4.0.30
 
-ADD requirements.txt ./
-RUN pip install -r requirements.txt
+
+
