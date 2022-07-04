@@ -1,6 +1,6 @@
 FROM apache/airflow:2.1.0
 
-RUN pip install pymssql = 2.2.5
+# RUN pip install pymssql = 2.2.5
 # RUN sudo apt install python3-pyodbc
 
 # RUN apt-get update \
